@@ -1,0 +1,75 @@
+body {
+    background: #298eea;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.signupform {
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    background: white;
+}
+
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+
+button[type='submit'] {
+    background: green;
+    text-align: center;
+    color: white;
+}
+
+.p1 {
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.signupform legend {
+    text-align: center;
+    font-size: 35px;
+    margin: 0 auto 40px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 10%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
